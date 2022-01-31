@@ -1,0 +1,40 @@
+body{
+    background-color: gainsboro;
+}
+p:nth-child(4){
+    background-color: lightseagreen;
+    color: rgb(248, 252, 10);
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.first{
+    text-align: center;
+    background-color: violet;
+    text-align: center;
+}
+
+#shadow{
+    color: darkblue;
+    box-shadow:  10px 14px 14px 1px #0b2530;
+    text-align: right;
+}
+ul{
+    padding-left: 0;
+}
+.text{
+    font-family: monospace;
+    color:greenyellow;
+    background-color: rgb(20, 74, 223);
+    padding-left: 10px;
+    list-style-image: url();
+    border-top: thick dotted blue;
+}
+.active{
+    color: fuchsia;
+    border-top: thick dotted rgb(17, 17, 73);
+}
+
+ul li:first-child {
+    border-top: none;
+   }
